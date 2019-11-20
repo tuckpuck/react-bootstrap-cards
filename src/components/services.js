@@ -1,6 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
-import styles from "./services.css"
+import "./services.css"
 
 const Services = () => 
         <div class="container-fluid">
