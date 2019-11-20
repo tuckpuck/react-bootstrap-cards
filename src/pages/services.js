@@ -1,11 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import styles from "./services.css"
 
-const SecondPage = () => <Layout><div className="justify-content-center row">
-                
+const Services = () => 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="mx-auto col-lg-8 col-md-10 col-12">
+                    <h1>Our Services</h1>
+                    <p class="mb-0">We're digital media professionals with experience working with a wide array of technologies. Whether you are just starting out or already have an established business, we can work with you to grow your business and make an impact.</p>
+                </div>
+            </div>
+    <div className="justify-content-center row">            
 <div className="mt-5 col-xl-4 col-md-6 col-12">
     <div className="shadow-card service-card card">
         <div className="p-3 d-flex align-items-center justify-content-center rounded-top bg-sea bg-img-sea card-body">
@@ -57,7 +62,7 @@ const SecondPage = () => <Layout><div className="justify-content-center row">
                 <ul className="fa-ul mb-0 ml-0 mt-2">
                     <li className="service-list-item py-2 border-bottom"><span className="fa-li"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="book-spells" className="svg-inline--fa fa-book-spells fa-w-14 text-mulberry" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path fill="currentColor" d="M448 384V16c0-8.8-7.2-16-16-16H80C35.8 0 0 35.8 0 80v352c0 44.2 35.8 80 80 80h352c8.8 0 16-7.2 16-16v-16c0-7.8-5.6-14.3-12.9-15.7-4.2-13-4.2-51.6 0-64.6 7.4-1.5 12.9-7.9 12.9-15.7zm-54 80H80c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h314c-2.7 17.3-2.7 46.7 0 64zm6-112H80c-11.4 0-22.2 2.4-32 6.7V80c0-17.7 14.3-32 32-32h320v304zm-154.66-85.33L272 320l26.66-53.33L352 240l-53.34-26.67L272 160l-26.66 53.33L192 240l53.34 26.67zM160 200l18.66-37.33L216 144l-37.34-18.67L160 88l-18.67 37.33L104 144l37.33 18.67L160 200z"></path>
-                            </svg></span><span className="service-item-title">React Dynamic UIs</span></li>
+                            </svg></span><span className="service-item-title">Dynamic React User Interfaces</span></li>
                     <li className="service-list-item py-2 border-bottom"><span className="fa-li"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" className="svg-inline--fa fa-instagram fa-w-14 text-mulberry" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
                             </svg></span><span className="service-item-title">Gatsby Progressive Web Apps</span></li>
@@ -200,6 +205,8 @@ const SecondPage = () => <Layout><div className="justify-content-center row">
         </div>
     </div>
 </div>
-</div></Layout>
+</div>
+</div>
 
-export default SecondPage
+
+export default Services
